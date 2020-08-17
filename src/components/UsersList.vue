@@ -117,7 +117,7 @@ export default {
       // options - это объект с токеном для авторизации
       console.log("Пробуем авторизовано получить список пользователей");
       const url =
-        "http://emphasoft-test-assignment.herokuapp.com/api/v1/users/";
+        "https://emphasoft-test-assignment.herokuapp.com/api/v1/users/";
       fetch(url, options)
         .then((response) => response.json())
         .then((res) => {
