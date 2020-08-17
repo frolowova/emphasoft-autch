@@ -107,7 +107,7 @@ export default {
         password: pass,
       };
       const url =
-        "http://emphasoft-test-assignment.herokuapp.com/api-token-auth/";
+        "https://emphasoft-test-assignment.herokuapp.com/api-token-auth/";
       fetch(url, {
         method: "post",
         headers: {
